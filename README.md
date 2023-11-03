@@ -9,3 +9,4 @@ pip install pytest-html
 pytest <filename.py>
 
 ## pytest --html=report.html --self-contained-html
+
