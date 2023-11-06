@@ -1,1 +1,1 @@
-# python-unittest-pytest
+# pr-merge-util
