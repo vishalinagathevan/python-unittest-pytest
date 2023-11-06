@@ -6,10 +6,10 @@ properties([
     [$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator',  daysToKeepStr: '90', numToKeepStr: '50']],
     parameters([
         string(
-            defaultValue: 'https://github.com/kumvijaya/pr-test/pull/1',
+            defaultValue: 'https://github.com/vishalinagathevan/python-unittest-pytest/pull/2',
             name: 'prUrl',
             trim: true,
-            description: 'Provide github pull request url: (Example: https://github.com/kumvijaya/pr-test/pull/1).'
+            description: 'Provide github pull request url: (Example: https://github.com/vishalinagathevan/python-unittest-pytest/pull/2).'
         )
     ])
 ])
